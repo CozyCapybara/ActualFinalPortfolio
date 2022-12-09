@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Responsive Redesign",
+        "image": "images/ResponsiveRedesignHomePage.png",
+        "link": "/ResponsiveRedesign"
+    },
+    {
+        "name": "A/B Testing",
+        "image": "images/Version A heatmap.png",
+        "link": "/ABTesting"
+    }
+
+]

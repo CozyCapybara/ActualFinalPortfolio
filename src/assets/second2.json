@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Iterative Design",
+        "image": "images/IterativeDesignScreenshot.png",
+        "link": "/IterativeDesign"
+    },
+
+    {
+        "name": "Development",
+        "image": "images/DevelopmentScreenshot.png",
+        "link": "/Development"
+    }
+]
