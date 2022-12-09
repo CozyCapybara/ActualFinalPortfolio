@@ -36,7 +36,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: none;
+  background-color: transparent;
+}
+
+.container:hover .overlayContainer{
+  opacity: 1;
+  
 }
 
 .text {
