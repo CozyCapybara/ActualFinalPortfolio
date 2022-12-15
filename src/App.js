@@ -7,7 +7,9 @@ import {About} from './pages/About';
 import {ResponsiveRedesign} from './pages/ResponsiveRedesign';
 import {IterativeDesign} from './pages/IterativeDesign';
 import {ABTesting} from './pages/ABTesting';
-import {Development} from './pages/Development'
+import {Development} from './pages/Development';
+
+
 
 function App() {
   return (
@@ -15,7 +17,6 @@ function App() {
       <div className="App">
       <NavbarItem />
       
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />

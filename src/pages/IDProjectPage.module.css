@@ -1,0 +1,97 @@
+.pageStyles {
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 8%;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* unvisited link */
+.conciseIntro a:link {
+  color: gray;
+}
+
+/* visited link */
+.conciseIntro a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+.conciseIntro a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.conciseIntro a:active {
+  color: black;
+}
+
+.conciseIntro {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.headerPic {
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  aspect-ratio: 3 / 1;
+}
+
+.carouselContainer {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.listContent {
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+
+.title {
+  font-size: 3.5em;
+  margin-top: 60px;
+}
+
+.contentWrapper {
+  margin-top: 50px;
+}
+
+.contentSection{
+  margin-top: 50px;
+}
+
+.bullets {
+  font-weight: 500;
+}
+
+
+.linkWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.contentHeader{
+  font-size: 2em;
+}
+
+.quote {
+  font-weight: 500;
+  font-size: 1.25em;
+}
+.content{
+  font-size: 1.2em;
+}
+
+

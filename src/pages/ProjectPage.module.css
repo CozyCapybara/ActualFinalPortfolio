@@ -1,0 +1,131 @@
+.pageStyles {
+  text-align: left;
+  padding-left: 15%;
+  padding-right: 8%;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* unvisited link */
+.conciseIntro a:link {
+  color: gray;
+}
+
+/* visited link */
+.conciseIntro a:visited {
+  color: gray;
+}
+
+/* mouse over link */
+.conciseIntro a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.conciseIntro a:active {
+  color: black;
+}
+
+.conciseIntro {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.headerPic {
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  aspect-ratio: 3 / 1;
+}
+
+
+.title {
+  font-size: 3.5em;
+  margin-top: 60px;
+}
+
+.contentWrapper {
+  margin-top: 50px;
+}
+
+.contentSection{
+  margin-top: 50px;
+}
+
+.bullets {
+  font-weight: 500;
+}
+
+
+
+.homepage {
+  width: 70%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.contentHeader{
+  font-size: 2em;
+}
+
+.content{
+  font-size: 1.2em;
+}
+
+.styleGuide {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.bigPic1 {
+  max-width: 70%;
+  height: 100%;
+}
+
+.bigPic2 {
+  max-width: 15%;
+  height: 100%;
+}
+
+.figmaPic {
+  max-height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.picContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 30px;
+  justify-content: center;
+  column-gap: 10%;
+  margin-top: 50px;
+}
+
+.prototypeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10%;
+}
+
+.imgWrapper {
+  max-width: 500px;
+}
+
+.pWrapper {
+  padding-right: 20%;
+}
+
+.styleGuideLink:hover {
+  opacity: 50%;
+}
+
